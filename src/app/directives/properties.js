@@ -13,8 +13,7 @@
         collapsible: '=',
         isNestedProperty: '=',
         hideTypeLinks: '=',
-        hidePropertyDetails: '=',
-        showExamples: '='
+        hidePropertyDetails: '='
       },
       controller: function ($scope, $rootScope) {
         if (!Array.isArray($scope.list)) {
