@@ -14,7 +14,6 @@
         isNestedProperty: '=',
         hideTypeLinks: '=',
         hidePropertyDetails: '=',
-        showExamples: '=',
         showSecuritySchemaProperties: '='
       },
       controller: ['$scope', '$rootScope', function ($scope, $rootScope) {

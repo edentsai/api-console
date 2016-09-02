@@ -796,7 +796,6 @@
         isNestedProperty: '=',
         hideTypeLinks: '=',
         hidePropertyDetails: '=',
-        showExamples: '=',
         showSecuritySchemaProperties: '='
       },
       controller: ['$scope', '$rootScope', function ($scope, $rootScope) {
@@ -7055,10 +7054,6 @@ angular.module('ramlConsoleApp').run(['$templateCache', function($templateCache)
     "\n" +
     "      <div ng-if=\"!vm.isCollapsed\">\n" +
     "        <p ng-if=\"type.description\" markdown=\"type.description\" class=\"raml-console-marked-content\"></p>\n" +
-    "\n" +
-    "        <p ng-if=\"type.example !== undefined && showExamples\">\n" +
-    "          <span class=\"raml-console-resource-param-example\"><b>Example:</b> {{type.example}}</span>\n" +
-    "        </p>\n" +
     "\n" +
     "        <pre ng-if=\"isSchema(type.type[0])\" class=\"raml-console-resource-pre\">\n" +
     "          <code class=\"raml-console-hljs\" hljs source=\"type.type[0]\"></code>\n" +
