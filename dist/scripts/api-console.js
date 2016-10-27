@@ -6881,17 +6881,17 @@ angular.module('ramlConsoleApp').run(['$templateCache', function($templateCache)
     "            </div>\n" +
     "          </section>\n" +
     "\n" +
-    "          <examples\n" +
-    "            ng-if=\"value\"\n" +
-    "            example-container=\"value\"\n" +
-    "            get-beatified-example-ref=\"getBeatifiedExample\">\n" +
-    "          </examples>\n" +
-    "\n" +
     "          <raml-body\n" +
     "            ng-if=\"value\"\n" +
     "            body=\"value\"\n" +
     "            get-beatified-example-ref=\"getBeatifiedExample\">\n" +
     "          </raml-body>\n" +
+    "\n" +
+    "          <examples\n" +
+    "            ng-if=\"value\"\n" +
+    "            example-container=\"value\"\n" +
+    "            get-beatified-example-ref=\"getBeatifiedExample\">\n" +
+    "          </examples>\n" +
     "        </div>\n" +
     "      </div>\n" +
     "    </section>\n" +
@@ -6941,17 +6941,17 @@ angular.module('ramlConsoleApp').run(['$templateCache', function($templateCache)
     "\n" +
     "          <div ng-repeat=\"(key, value) in fullResponses[code].body\">\n" +
     "            <div ng-if=\"responseInfo[code].currentType === key\">\n" +
-    "              <examples\n" +
-    "                ng-if=\"responseInfo[code] && responseInfo[code].currentType\"\n" +
-    "                example-container=\"value\"\n" +
-    "                get-beatified-example-ref=\"getBeatifiedExample\">\n" +
-    "              </examples>\n" +
-    "\n" +
     "              <raml-body\n" +
     "                ng-if=\"responseInfo[code] && responseInfo[code].currentType\"\n" +
     "                body=\"value\"\n" +
     "                get-beatified-example-ref=\"getBeatifiedExample\">\n" +
     "              </raml-body>\n" +
+    "\n" +
+    "              <examples\n" +
+    "                ng-if=\"responseInfo[code] && responseInfo[code].currentType\"\n" +
+    "                example-container=\"value\"\n" +
+    "                get-beatified-example-ref=\"getBeatifiedExample\">\n" +
+    "              </examples>\n" +
     "            </div>\n" +
     "          </div>\n" +
     "        </div>\n" +
