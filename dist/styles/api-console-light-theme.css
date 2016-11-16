@@ -2636,6 +2636,8 @@ root
   background: rgba(255, 255, 255, 0.75);
   font-family: Source Code Pro;
   font-size: 14px;
+  max-width: 1000px;
+  overflow: scroll;
 }
 
 .raml-console-resource-pre code pre {
